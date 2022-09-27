@@ -22,6 +22,7 @@ public class lesson2 {
         oct = oct % 100;
         decAfter = decAfter + oct;
         System.out.println(decAfter);
+        System.out.println(oct);
 
     }
 }
