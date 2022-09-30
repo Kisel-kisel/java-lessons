@@ -5,8 +5,7 @@ import java.util.Locale;
 public class Level1 {
     public static void main(String[] args) {
         String str = "I study Basic Java!";
-        int strin = str.length();
-        char s = str.charAt(strin - 1);
+        char s = str.charAt(str.length() - 1);
         System.out.println("последний символ строки: " + s);
         System.out.println("содержит ли строка подстроку “Java”: " + str.contains("Java"));
         System.out.println("Замена символов “а” на “о: " + str.replace("a","o"));
