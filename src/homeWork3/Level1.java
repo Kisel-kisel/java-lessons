@@ -11,9 +11,12 @@ public class Level1 {
         System.out.println("Замена символов “а” на “о: " + str.replace("a","o"));
         System.out.println("Преобразование строки к верхнему регистру: " + str.toUpperCase());
         System.out.println("Преобразование строки к нижнему регистру:  " + str.toLowerCase());
-        System.out.println("Вырезать строку Java: " + str.substring(14,18));
+        String jaStr = "Java";
+        System.out.println("Вырезать строку Java: " + str.substring((str.indexOf(jaStr)), str.indexOf(jaStr) + jaStr.length()));
         System.out.println("процент числа 200 от 470: " + (200 / 470.0) * 100);
-        System.out.println("индекс у символа 'g': " + str.indexOf('g'));
+        char ind = 'q';
+        int ind2 = ind;
+        System.out.println("индекс у символа 'g': " + ind2);
 
     }
 }

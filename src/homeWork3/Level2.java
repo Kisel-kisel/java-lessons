@@ -13,10 +13,10 @@ public class Level2 {
         char in1 = in0.charAt(0);
         System.out.println("Ваше имя начинается с буквы: " + in1 + "!");
         double num = 59.976;
-        int cdi = (int) Math.round(num);
+        int cdi = (int) Math.floor(num);
         System.out.println("3.Целое из числа и перевод в int: " + cdi);
         int cib = 476;
-        byte cbi = (byte) cib;
+        short cbi = (short) cib;
         System.out.println("4.перевод числа типа int в short: " + cbi);
     }
 }
