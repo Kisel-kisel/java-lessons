@@ -1,4 +1,4 @@
-package homeWork4;
+package level1;
 
 public class ExFour {
     int div (int a, int s, int c) {
