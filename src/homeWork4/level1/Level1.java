@@ -20,9 +20,6 @@ public class Level1 {
 //         differ.color = "WHITE";
 //         differ.lift = false;
 
-
-
-
     }
 
     public static class Home {
