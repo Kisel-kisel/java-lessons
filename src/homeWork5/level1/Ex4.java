@@ -9,6 +9,6 @@ public class Ex4 {
         System.out.println(strLen(str));
     }
    static boolean strLen ( String str){
-        return str.length() > 10;
+        return str.length() < 7;
    }
 }

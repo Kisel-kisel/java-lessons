@@ -9,6 +9,6 @@ public class Ex3 {
         System.out.println(div(number));
     }
    static boolean div (int number){
-        return number % 7 ==0 && number % 5 == 0;
+        return number % 4 ==0 && number % 6 == 0;
     }
 }
