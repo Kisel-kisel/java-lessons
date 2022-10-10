@@ -7,9 +7,11 @@ public class Ex5 {
         System.out.println("Порядковый номер машины: ");
         Scanner scanner = new Scanner(System.in);
         int numberOfCar = scanner.nextInt();
+        boolean car = 1 <= numberOfCar && numberOfCar  <= 10000;
+        boolean div = numberOfCar % 2 == 0;
         System.out.println("Легковая ли машина?");
         boolean isLorry = scanner.nextBoolean();
-        if (1 <= numberOfCar && numberOfCar  <= 10000 && isLorry){
+        if (div && car && isLorry){
             System.out.println("Можете проезжать!");
         }else {
             System.out.println("НЕ Можете проезжать!");
