@@ -13,6 +13,7 @@ public class Ex2 {
                 sum += numberOne;
             }
             numberOne++;
+
         }
         System.out.println(sum);
     }
