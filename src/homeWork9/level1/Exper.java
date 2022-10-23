@@ -2,17 +2,16 @@ package homeWork9.level1;
 
 import java.util.Scanner;
 
-public class Ex2 {
+public class Exper {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int numberOne = scanner.nextInt();
         int numberTwo = scanner.nextInt();
         int sum = 0;
-        while (numberOne < numberTwo){
-            if(numberOne % 2 != 0){
-                sum += numberOne;
+        for(int i = numberOne; i < numberTwo; i++ ){
+            if(i / 2 != 0){
+                sum += i;
             }
-            numberOne++;
         }
         System.out.println(sum);
     }
