@@ -1,0 +1,25 @@
+package homeWork9.level1;
+
+import java.util.Scanner;
+
+public class Ex2 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int numberOne = scanner.nextInt();
+        int numberTwo = scanner.nextInt();
+        int sum = 0;
+//        while(numberOne < numberTwo ){
+//            sum += numberOne;
+//            numberOne ++;
+//        }
+//        System.out.println(sum);
+        while (numberOne < numberTwo) {
+            if (numberOne % 2 == 1) {
+                sum += numberOne;
+            }
+
+        }
+
+             numberOne ++;
+    }
+}

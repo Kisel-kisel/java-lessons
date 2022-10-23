@@ -1,4 +1,4 @@
-package homeWork9;
+package homeWork9.level1;
 
 public class Ex1 {
     public static void main(String[] args) {
